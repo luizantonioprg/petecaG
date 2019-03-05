@@ -63,13 +63,11 @@ cursor: pointer;
 background: white;
 color: #8202DF;
 }
-        @media (max-width:536px){
+ @media (max-width:536px){
                  canvas{
     height: 300px;
     width: 300px;
     }
-
-        }
         @media(max-width:331px){
                 .inicio{
     max-width: 300px;
@@ -82,7 +80,11 @@ color: #8202DF;
                 #instructions{
     font-size: 10px;
     }
-    
+            canvas{
+height: 300px;
+width: 300px;
+}
+
 }
      
         
